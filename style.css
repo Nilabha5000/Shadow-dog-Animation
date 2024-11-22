@@ -1,0 +1,22 @@
+body {
+    margin: 20px;
+  }
+
+.container{
+    display : flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items : center;
+    height : 500px;
+}
+.container #canv{
+
+  top:50%;
+  width : 500px;
+  height : 500px;
+}
+
+#animations{
+   font-size: 20px;
+}
+  
