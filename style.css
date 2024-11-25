@@ -3,15 +3,15 @@ body {
   }
 
 .container{
-    display : flex;
+
     margin-top: 100px;
-    justify-content: center;
-    align-items : center;
     height : 500px;
 }
 .container #canv{
-
+  position : absolute;
   top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   width : 500px;
   height : 500px;
 }
